@@ -19,7 +19,7 @@
     <style>
         .row {
             margin: 0;
-            
+
         }
 
         /* .cover {    
@@ -29,7 +29,7 @@
             border: solid black 1px;
         } */
         .first-tabpane .row img {
-            border: solid black 1px;
+            /* border: solid black 1px; */
             width: 100%;
             height: 400px;
             object-fit: cover;
@@ -105,7 +105,7 @@
 
     <!-- GRID DE FOTOS START -->
     <nav class="container-fluid">
-        <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+        <div class="nav nav-tabs d-flex justify-content-center mt-4" id="nav-tab" role="tablist">
             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
                 type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i
                     class="fas fa-th"></i></button>
@@ -115,7 +115,8 @@
         </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active first-tabpane" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="tab-pane fade show active first-tabpane" id="nav-home" role="tabpanel"
+            aria-labelledby="nav-home-tab">
             <!--FIRTS ROW GRID START -->
             <div class="row mt-3">
                 <div class="col-4">
@@ -149,7 +150,7 @@
             </div>
             <!-- SECOND ROW GRID END -->
             <!-- THREE ROW GRID START -->
-            <div class="row mt-3">
+            <div class="row mt-3 mb-4">
                 <div class="col-4">
                     <img src="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         class="img-fluid cover" alt="">
@@ -165,43 +166,144 @@
             </div>
             <!-- THREE ROW GRID END -->
         </div>
+        <!-- VERTICAL ROW GRID START -->
         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <div class="row border d-flex flex-column align-items-center">
+            <div class="row  d-flex flex-column align-items-center mt-4">
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">My Crazy dog Spark!</h4>
+                            <p class="m-0 text-dark ">08/26</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">204 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/3184407/pexels-photo-3184407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1Z"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">two students</h4>
+                            <p class="m-0 text-dark ">04/09</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/3184407/pexels-photo-3184407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1Z"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">2985 likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/3958980/pexels-photo-3958980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">The greatness of croatia</h4>
+                            <p class="m-0 text-dark ">08/24</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/3958980/pexels-photo-3958980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">26985 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4">
-                    <img src="https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">The model of Praga</h4>
+                            <p class="m-0 text-dark ">09/29</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">207894 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">
+                                The Eiffel Tower</h4>
+                            <p class="m-0 text-dark ">10/12</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">2045432 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/13043589/pexels-photo-13043589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">MES QUE UN CLUB</h4>
+                            <p class="m-0 text-dark ">10/04</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/13043589/pexels-photo-13043589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">29886904 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4">
-                    <img src="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">The family!</h4>
+                            <p class="m-0 text-dark ">10/26</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">124 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">4geeks academy</h4>
+                            <p class="m-0 text-dark ">11/12</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">20346784 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-4 ">
-                    <img src="https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                        class="img-fluid" alt="">
+                    <div class="card mb-4">
+                        <div class="card-head d-flex justify-content-between align-items-center  p-3">
+                            <h4 class="card-title  m-0 ">The meeting</h4>
+                            <p class="m-0 text-dark ">11/24</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="img-fluid" alt="">
+                        <div class="card-body">
+                            <p class="fw-bold m-0">204 Likes</p>
+                            <p>This is an example of a very good photo that yu can post on Instagram</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
